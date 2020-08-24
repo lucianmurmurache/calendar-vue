@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Calendar msg="Calendar"/>
+    <Calendar />
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   name: 'App',
   components: {
     Calendar
-  }
+  },
 }
 </script>
 
@@ -21,7 +21,13 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
+
+.calendar-month-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0362c0;
+  padding: 1rem;
+}
+
 </style>

@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #2c3e50;
+  padding: 3rem;
+}
+
+/* Scrollbar*/
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2c3e50;
+}
+
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
